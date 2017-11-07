@@ -15,7 +15,7 @@ Iris$Id <- NULL
 # Centered and reduced the data
 NewIris <- scale(Iris)
 
-# K-mean clustering by using several K
+# K-means clustering by using several K
 set.seed(123)
 K_kmeans <- function(K){
     res <- kmeans(NewIris, K)
