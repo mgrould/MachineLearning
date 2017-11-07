@@ -1,2 +1,10 @@
-# MachineLearning
+# README: MachineLearning
+
+### Marion Grould
+7 November 2017
+
+## Abstract
 Application of Machine Learning methods on Kaggle databases.
+
+## Repository
+* **K-means**: Contains various files used to applied the K-means clustering method.
