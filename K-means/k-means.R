@@ -29,7 +29,7 @@ Kres <- sapply(Kmin:Kmax, K_kmeans)
 plot(Kmin:Kmax, Kres, xlab="Number of clusters (K)", ylab="Total within-cluster sum of squares")
 
 # Select the appropriate number of clusters by using the Elbow method: 
-# -> the K is selected when the number of cluster does not improve much better the model
+# -> the K is selected when the number of clusters does not improve much better the model
 # K = 3 in our case
 points(3, Kres[3], pch=16)
 
