@@ -4,7 +4,7 @@
 7 November 2017
 
 ## Abstract
-Application of the [K-means clustering method](https://en.wikipedia.org/wiki/K-means_clustering) to the [Iris dataset of Kaggle](https://www.kaggle.com/uciml/iris). The aim of this project is to classify the flowers.
+Application of the [K-means clustering method](https://en.wikipedia.org/wiki/K-means_clustering) to the [Iris dataset of Kaggle](https://www.kaggle.com/uciml/iris). The aim of this project is to classify the flowers by species.
 
 ### Definition of the K-means method
 The K-means method is used in unsupervised machine learning problems. 
