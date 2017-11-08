@@ -30,8 +30,10 @@ RF_model <- randomForest(Species~., train)
 varImpPlot(RF_model)
 
 # Make prediction
+# Only two flowers are classified in wrong species
 prediction <- predict(RF_model, test)
 solution <- data.frame(Id = Iris[-train_ind, 1], test, 
                        Species_True = Iris[-train_ind, 5], 
                        Species_Find = prediction)
+which(solution$Species_True != solution$Species_Find)
 write.csv(solution, file = 'RFSolution.csv', row.names = F)
