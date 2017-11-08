@@ -12,6 +12,6 @@ Description of each variable saved in the RFSolution.csv file.
 
 * PetalWidthCm : Wigth of the pepal in centimeters.
 
-* Species_True : True species of the iris.
+* Species_True : True specie of each iris.
 
-* Species_Find : Predicted species of the iris find with the Random Forest method.
+* Species_Find : Predicted specie of each iris found with the Random Forest method.
