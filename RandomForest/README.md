@@ -12,4 +12,5 @@ The Random Forest method is used in [supervised machine learning problems](https
 ## Repository
 * **Iris.csv**: Dataset downloaded from Kaggle and containing the Iris dimensions (sepal and petal).
 * **RandomForest.R**: Script allowing to both build the predictive model and classify the flowers.
+* **RFImportance.pdf**: Plot showing the relative importance of each variable in the classification. 
 * **RFSolution.csv**: Classification of the flowers (read the CodeBook for more informations about the variables).
