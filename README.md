@@ -4,7 +4,7 @@
 7 November 2017
 
 ## Abstract
-Application of Machine Learning methods on Kaggle databases.
+Application of Machine Learning methods on Kaggle datasets.
 
 ## Repository
 * **K-means/**: Contains various files used to applied the K-means clustering method.
